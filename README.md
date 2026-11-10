@@ -33,3 +33,4 @@ Expected: **6 passed**, followed by a CSV and a JSON report in `reports/`.
 - Next: let the OpenShell agent **interpret** a report using an approved tool, without granting access to confidential data or modifying tests without approval.
 
 **Cost:** software and the included example: 0 €; downloading Python packages requires ordinary internet, not an AI API or GPU cloud. The included GitHub Actions workflow is intended for public repositories under currently available free hosted runner policies; limits can change.
+# Git practice: learning version control
