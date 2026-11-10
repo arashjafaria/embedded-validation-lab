@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+reports/*.csv
+reports/*.json
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated test reports
+reports/
+
+# Local backup files
+aeb_backup.py
+
+# Secrets and environment variables
+.env
+.env.*
