@@ -16,7 +16,7 @@ python -m pytest -q
 python generate_report.py
 ```
 
-Expected: **6 passed**, followed by a CSV and a JSON report in `reports/`.
+Expected: **17 passed**, followed by a CSV and a JSON report in `reports/`.
 
 ## Engineering exercise
 
@@ -38,3 +38,14 @@ Expected: **6 passed**, followed by a CSV and a JSON report in `reports/`.
 ## Continuous Integration
 Jenkins automatically runs AEB tests after detecting new Git commits.
 
+### Jenkins Validation Pipeline
+
+- Automatic SCM polling checks for new Git commits.
+- Tests run on a Docker-based Jenkins Python Agent.
+- All 17 automated tests must pass.
+- Minimum required code coverage: 95%.
+- JUnit test results and coverage reports are retained.
+- The test environment is created from requirements-dev.txt.
+
+This is an educational AEB simulation and not a certified
+automotive safety system.
