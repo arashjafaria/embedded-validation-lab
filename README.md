@@ -38,5 +38,3 @@ Expected: **6 passed**, followed by a CSV and a JSON report in `reports/`.
 ## Continuous Integration
 Jenkins automatically runs AEB tests after detecting new Git commits.
 
-## Continuous Integration
-Jenkins automatically runs AEB tests after detecting new Git commits.
