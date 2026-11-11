@@ -21,3 +21,4 @@ aeb_backup.py
 # Secrets and environment variables
 .env
 .env.*
+test-results.xml
