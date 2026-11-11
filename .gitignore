@@ -22,3 +22,6 @@ aeb_backup.py
 .env
 .env.*
 test-results.xml
+# Generated code coverage files
+.coverage
+coverage.xml
